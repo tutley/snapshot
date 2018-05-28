@@ -15,7 +15,21 @@ There's only one parameter: url.
 Send a get request to localhost:LISTEN_PORT like so:
 
 ```
-curl localhost:9999/?url=https://www.google.com
+curl localhost:9999/?url=https://foundirl.com
+```
+
+## Returns
+
+JSON
+
+```
+{
+  "result":
+  {
+    "type": "string",
+    "value": "<Entire contents of DOM>"
+  }
+}
 ```
 
 ## Daemonize
